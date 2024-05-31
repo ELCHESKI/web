@@ -1,21 +1,67 @@
-#titulo {
-    font-size: 24px;
-    color: #ff1111;
+.titulo {
+    font-size: 30px;
+    color: #6b5d5d;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(155, 108, 182);
+    background-color: rgb( 163, 161, 161);
+    text-shadow: 2px 2px 6px black;
+    
 
 }
 
-#noticias {
-    font-size: 24px;
+body {
+    background-color: aliceblue;
+}
+
+
+#busqueda {
+    font-size: 20px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(212, 162, 162);
+    background-color: rgb(163, 161, 161);
+    text-shadow: 3px 3px 5px red;
+}
 
+.noticiaslocales {
+    font-size: 17px;
+    font-family: cursive, Geordia, Helvetica, sans-serif;
+    background-color: rgb(163, 161, 161);
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px whitesmoke;
+
+}
+
+
+
+span{
+    font-size: 18px;
+    color: rgb(46, 186, 221);
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 12px;
+    font-family: cursive, gothic Medium, Tahoma, sans-serif;
+    background-color: rgb(163, 161, 161);
+    text-shadow: 7px 7px 12px blue;
+
+}
+
+#libro{
+    border-style: ridge;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 6px;
+    width: 19%;
+    overflow-x: scroll;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
 }
