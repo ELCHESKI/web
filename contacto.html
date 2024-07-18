@@ -10,7 +10,7 @@
 <body>
     <div class="titulo">
         <header>
-            Este es el piso 4
+            Este es el piso 11
         </header>
     </div>
     <main>
@@ -21,6 +21,97 @@
                  <a href="videos.html">  videos </a>   |
                  <a href="contacto.html">  contacto  </a>   
             </nav>
+            <div>
+               
+            </div>
+            
+        </div>
+        <h3>informacion personal</h3>
+                <br>
+                digite su informacion personal
+                <br>
+           <form name="formulario" method="get" action="precesar.html">
+            <p>
+                <label for="nombre">Nombre:
+                <!--<input>-Este elemento cre un campo de entrada.  -->
+                <!--maxlength-Este atributo especifica el maximo numero de caracteres-->
+
+                <input type="text" name="nombre" maxlength="25" id="nombre">
+            </label>
+            </p>
+            <p>
+                <label for="clave">Clave:
+
+
+                    <input type="password" name="clave" maxlength="15" id="clave">
+                </label>
+            </p>
+            <!--
+              min -El valor de este aributo determina
+              el valor minimo que acepta el campo.
+              max- 
+            -->
+            <p>
+                <label>
+                    Edad: <input type="number" min="9" max="100" name="edad">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Estatura: <input type="range" min="50" max="300"
+                    name="estatura" value="150">
+                    
+                </label>
+            </p>
+
+            <p>
+                <label>Correo: <input type="email" name="Correo">
+                </label>
+            </p>
+
+            <p>
+                <label>Telefono: <input type="tel" name="Telefono"
+                    placeholder="506-3434-5436"
+                    > 
+
+                </label>
+            </p>
+
+            <p>
+                <label>Sitio Web: <input type="url" name="Sitioweb">
+                </label>
+            </p>
+            <div>
+            <h3>
+                Anos de experiencia:
+            </h3>
+            <br>
+
+            <p>
+                <label>Experencia:
+                    <input type="radio" name="experencia"
+                    value="1" checked> 1 ano
+            
+                    <input type="radio" name="experencia"
+                    value="2"> 2 anos
+
+                    
+                    <input type="radio" name="experencia"
+                    value="3"> 3 anos
+
+                    
+                    <input type="radio" name="experencia"
+                    value="4"> 4 anos
+
+                    
+                    <input type="radio" name="experencia"
+                    value="muchos anos"> muchos anos
+                </label>
+            </p>
+            </div>
+           </form>
+        <div>
+
         </div>
         
     </main>
