@@ -10,7 +10,7 @@
 <body>
     <div class="titulo">
         <header>
-            Este es el piso 11
+            Este es el piso 4
         </header>
     </div>
     <main>
@@ -30,7 +30,7 @@
                 <br>
                 digite su informacion personal
                 <br>
-           <form name="formulario" method="get" action="precesar.html">
+           <form name="formulario" method="get" action="procesar.html">
             <p>
                 <label for="nombre">Nombre:
                 <!--<input>-Este elemento cre un campo de entrada.  -->
@@ -109,6 +109,36 @@
                 </label>
             </p>
             </div>
+            <div>
+                <h3>Fecha de nacimiento</h3>
+
+                <input id="calendario" type="date" name="fecha" >
+            </div>
+            <div>
+              <h3>Color</h3>
+
+              <input type="color" name="micolor" value="#99B00">
+
+            </div>
+            <div>
+                <p>
+                    <label>Texto: <textarea name="texto"
+                        cols="20" rows="2"></textarea>
+                    </label>
+                </p>
+            </div>
+            <div>
+                <label for="listado">Gremorio: </label>
+                <select name="gremorio" id="listado">
+                    <option value="1">ordinal scale</option>
+                    <option value="2">progressive 1</option>
+                    <option value="3">progressive 2</option>
+                    <option value="4">A silent voice</option>
+                </select>
+            </div>
+            <div>
+                <p><input type="submit" value="enviar"></p>
+            </div>
            </form>
         <div>
 
@@ -118,3 +148,17 @@
     
 </body>
 </html>
+
+<script>
+window.onload = function(){
+  var fecha = new Date(); //Fecha actual
+  var mes = fecha.getMonth()+1; //obteniendo mes
+  var dia = fecha.getDate(); //obteniendo dia
+  var ano = fecha.getFullYear(); //obteniendo año
+  if(dia<10)
+    dia='0'+dia; //agrega cero si el menor de 10
+  if(mes<10)
+    mes='0'+mes //agrega cero si el menor de 10    
+ document.getElementById('calendario').value=ano+"-"+mes+"-"+dia;
+}
+</script>

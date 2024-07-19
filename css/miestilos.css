@@ -18,7 +18,7 @@ body {
 
 #busqueda {
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(000, 000, 000);
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
@@ -135,6 +135,18 @@ table, th, td {
     margin-right: auto;
     width: 30%;
   }
+
+h3  { 
+background: linear-gradient(red, black);
+color: #000000;
+text-shadow: rgb(255, 255, 255);
+    
+  }
+
+#imajen{
+    align-content: space-between;
+}  
+
 
 
 
